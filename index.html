@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <title>Blog bootstrap</title>
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <!--nav bar-->
+            <nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-dark" 
+            style="opacity: 80%; z-index: 2;
+            position: fixed;
+            top: 0;
+            transition: top 0.3s;">
+                <div class="container">
+                  <a class="navbar-brand me-5 fs-4" href="#"> 
+                    <img src="./images/logo2.png" alt="" width="80" height="40">
+                     Voyage Avec Nous
+                  </a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav mx-5">
+                      <li class="nav-item fs-7">
+                        <a class="nav-link active" aria-current="page" href="#">BEST-OF</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">STORIES</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">VANLIFE</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">BLOG</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">NEWSLETTER</a>
+                      </li>
+                    </ul>
+                    <form class="d-flex">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-success" type="submit">Search</button>
+                      </form>
+                  </div>
+                </div>
+              </nav>
+            <!--Fin nav bar-->
+            <!--Image background-->
+            <img class="img-fluid" src="./images/peru-andes.jpg" alt="" style="z-index: 1;
+            position: relative;">
+            <!--Fin Image background-->
+            <!--Citation-->
+            <blockquote class="blockquote" 
+            style="position: absolute;
+            z-index: 2;
+            text-align: center;
+            margin-top: 12em;">
+                 <p class="fs-2 text-light" 
+                    ><strong>"Voyager vous laisse sans voix avant de vous transformer en conteur"</strong></p>
+                    <p class="text-light"><em>Citation : d'Ibn Battuta</em></p>
+            </blockquote>
+           
+        </div>
+        <main>
+            <div class="container">
+                <div class="row">
+                    <p class="my-5"><em>
+                        Accueil du blog
+                    </em>
+                    </p>
+                </div>
+                <div class="row">
+                    <div class="col-6">
+                        <p class="fs-5 me-4">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec iaculis eros ut vehicula malesuada. Aliquam luctus metus sapien a malesuada leo accumsan at Orci varius.
+                        </p>
+                        <p class="fs-5 me-4">
+                            Nulla ut velit accumsan, porta urna ac, egestas est. Quisque ipsum nisi, dictum pulvinar efficitur nec, interdum et enim. Donec quis nisl nec odio tempor convallis.
+                        </p>
+                    </div>
+                    <div class="col-6">
+                        <p class="ms-4">
+                            sommaire
+                        </p>
+                    </div>
+                </div>
+                <div class="row">
+                    <img class="my-5" src="./images/Ligne-de-séparation.png" alt="" height="30" width="100">
+                </div>
+                <div class="row">
+                    <div class="col-6">
+                        <h2 class="mb-4 me-4">
+                            Voyager léger
+                        </h2>
+                        <p class="me-4 fs-5 text-secondary">
+                            <a href="#" class="text-decoration-none">La Fille Voyage</a> :
+                            Nam at erat ut orci venenatis semper. Vivamus at diam blandit, commodo magna a, sollicitudin dui. Etiam sodales mauris non nunc fringilla varius.
+                        </p>
+                        <p class="me-4 fs-5 text-secondary"> 
+                            <a href="#" class="text-decoration-none">L'aventurière</a> :
+                            Etiam sodales mauris non nunc fringilla varius. Fusce lobortis turpis eu neque auctor ultricie
+                        </p>
+                        <p class="me-4 fs-5 text-secondary">
+                            <a href="#" class="text-decoration-none">Découverte Monde</a> :
+                            Praesent fermentum ex ut neque sollicitudin, ut finibus odio euismod. Integer sollicitudin efficitur varius.
+                        </p>
+                        <p class="me-4 fs-5 text-secondary">
+                            <a href="#" class="text-decoration-none">Blog de Laura</a> :
+                            Aliquam sit amet felis sit amet eros vestibulum consequat. 
+                        </p>
+                        <p class="me-4 fs-5 text-secondary">
+                            <a href="#" class="text-decoration-none">Globe Trekkeuse</a> :
+                            eu tincidunt justo. Quisque dignissim in ipsum sed ullamcorper. Nulla suscipit mauris in sem condimentum, quis ullamcorper arcu maximus.
+                        </p>
+                        <p class="me-4 fs-5 text-secondary">
+                            <a href="#" class="text-decoration-none">Show Me Le Monde</a> :
+                            Nunc mattis elementum nulla a laoreet. In vestibulum euismod lectus, at feugiat diam interdum et. Etiam euismod nulla ac tristique auctor.
+                        </p>
+                        <p class="me-4 fs-5 text-secondary">
+                            <a href="#" class="text-decoration-none">Green Geekette</a> :
+                            Aenean eget erat sed urna blandit ultrices. Donec sit amet neque vitae justo malesuada porta. Suspendisse potenti. Nam rutrum dolor sollicitudin mattis fermentum.
+                        </p>
+                        <h2 class="my-4 me-4">
+                            Blog voyage et thématique
+                        </h2>
+                        <p class="me-4 fs-5 text-secondary">
+                            <a href="#" class="text-decoration-none">La Fille Voyage</a> :
+                            Nam at erat ut orci venenatis semper. Vivamus at diam blandit, commodo magna a, sollicitudin dui. Etiam sodales mauris non nunc fringilla varius.
+                        </p>
+                        <p class="me-4 fs-5 text-secondary"> 
+                            <a href="#" class="text-decoration-none">L'aventurière</a> :
+                            Etiam sodales mauris non nunc fringilla varius. Fusce lobortis turpis eu neque auctor ultricie
+                        </p>
+                        <p class="me-4 fs-5 text-secondary">
+                            <a href="#" class="text-decoration-none">Découverte Monde</a> :
+                            Praesent fermentum ex ut neque sollicitudin, ut finibus odio euismod. Integer sollicitudin efficitur varius.
+                        </p>
+                        <p class="me-4 fs-5 text-secondary">
+                            <a href="#" class="text-decoration-none">Blog de Laura</a> :
+                            Aliquam sit amet felis sit amet eros vestibulum consequat. 
+                        </p>
+                        <p class="me-4 fs-5 text-secondary">
+                            <a href="#" class="text-decoration-none">Globe Trekkeuse</a> :
+                            eu tincidunt justo. Quisque dignissim in ipsum sed ullamcorper. Nulla suscipit mauris in sem condimentum, quis ullamcorper arcu maximus.
+                        </p>
+                        <p class="me-4 fs-5 text-secondary">
+                            <a href="#" class="text-decoration-none">Show Me Le Monde</a> :
+                            Nunc mattis elementum nulla a laoreet. In vestibulum euismod lectus, at feugiat diam interdum et. Etiam euismod nulla ac tristique auctor.
+                        </p>
+                        <p class="me-4 fs-5 text-secondary">
+                            <a href="#" class="text-decoration-none">Green Geekette</a> :
+                            Aenean eget erat sed urna blandit ultrices. Donec sit amet neque vitae justo malesuada porta. Suspendisse potenti. Nam rutrum dolor sollicitudin mattis fermentum.
+                        </p>
+                    </div>
+                    <div class="col-6">
+                        <h2 class="mb-4 ms-4">
+                            Blog Voyage & paysage
+                        </h2>
+                        <p class="ms-4 fs-5 text-secondary">
+                            <a href="#" class="text-decoration-none">Viwio</a> :
+                            Nam at erat ut orci venenatis semper. Vivamus at diam blandit, commodo magna a, sollicitudin dui. Etiam sodales mauris non nunc fringilla varius.
+                        </p>
+                        <p class="ms-4 fs-5 text-secondary">
+                            <a href="#" class="text-decoration-none">J'aime le monde</a> :
+                            Nam at erat ut orci venenatis semper. Vivamus at diam blandit, commodo magna a, sollicitudin dui. Etiam sodales mauris non nunc fringilla varius.
+                        </p>
+                        <p class="ms-4 fs-5 text-secondary">
+                            <a href="#" class="text-decoration-none">Instinct Voyageur</a> :
+                            Nam at erat ut orci venenatis semper. Vivamus at diam blandit, commodo magna a, sollicitudin dui. Etiam sodales mauris non nunc fringilla varius.
+                        </p>
+                        <h2 class="my-4 ms-4">
+                            Voyager en duo
+                        </h2>
+                        <p class="ms-4 fs-5 text-secondary">
+                            <a href="#" class="text-decoration-none">On Day One Travel</a> :
+                            Nam at erat ut orci venenatis semper. Vivamus at diam blandit, commodo magna a, sollicitudin dui. Etiam sodales mauris non nunc fringilla varius.
+                        </p>
+                        <p class="ms-4 fs-5 text-secondary">
+                            <a href="#" class="text-decoration-none">Tourdumondiste</a> :
+                            Nam at erat ut orci venenatis semper. Vivamus at diam blandit, commodo magna a, sollicitudin dui. Etiam sodales mauris non nunc fringilla varius.
+                        </p>
+                    </div>
+                </div>
+                <div class="row">
+                    <img class="my-5" src="./images/Ligne-de-séparation.png" alt="" height="50" width="100">
+                </div>
+            </div>
+        </main>
+        <div class="row">
+            <Footer class="container-fluid text-center bg-dark">
+                <section class="my-3">
+                    <span class="text-light fs-6 mx-3">&copy; 2021 le futon</span><a href="#" class="text-light text-decoration-none">Mention Légales</a> <a href="#" class="text-light text-decoration-none">Sitemap</a> <a href="#" class="text-light text-decoration-none">A propos</a>
+                    <a href="#" class="text-light text-decoration-none">Contact</a>
+                </section>
+            </Footer>
+        </div>
+    </div>
+</body>
+</html>
